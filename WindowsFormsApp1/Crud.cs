@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
         }
 
         SqlConnection sqlCon = null;
-        private string strCon = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Ddk\\source\\repos\\WindowsFormsApp1\\WindowsFormsApp1\\Database1.mdf;Integrated Security=True";
+        private string strCon = "Your DB path goes here.";
         private string strSql = string.Empty;
 
         private void Crud_Load(object sender, EventArgs e)
